@@ -55,7 +55,7 @@ function getBlogBody(data, isLoading) {
 		const { details, content } = data.data;
 		return (
 			<div>
-				<h1 class={style.blogtitle}>{details.title}</h1>
+				<h1 class={style.blogtitle}>this is the change !!!!!!!!!!{details.title}</h1>
 				{ details.subtitle && <caption class={style.blogsubtitle}>{details.subtitle}</caption> }
 				{ details.cover && <div class={style.blogcover} style={`background-image:url(${details.cover})`} /> }
 				<div class={style.blogbody}>
